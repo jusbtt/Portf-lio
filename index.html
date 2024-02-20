@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="png" href="ju.png">
+    <title>Julyane Silva</title>
+    <script src="script.js" defer>
+    </script>
+</head>
+<body>
+    
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="Logo.png" alt="">
+                </a>
+            </div><!--colocar logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#sbm">Início</a></li>
+                    <li><a href="#esp">Especialidades</a></li>
+                    <li><a href="#projet">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="contato">
+                <a href="https://api.whatsapp.com/send/?phone=5541984231847&text&type=phone_number&app_absent=0">
+                    <button>Contato</button>
+                </a>
+            </div>
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#sbm">Início</a></li>
+                        <li><a href="#esp">Especialidades</a></li>
+                        <li><a href="#projet">Projetos</a></li>
+                        <li><a href="https://api.whatsapp.com/send/?phone=5541984231847&text&type=phone_number&app_absent=0">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            
+            <div class="overlay-menu" id="overlay-menu"></div>
+
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+        <div class="interface">
+            <div class="flex">
+                <div class="txt-topo-site">
+                    <h1 id="sbm">SOBRE MIM <span>></span></h1>
+                    <p>Estudante de Tecnologia da Informação no 5º período com experiência em Assistente Administrativo, buscando transição de carreira para Desenvolvedor Front-End. Habilidades em HTML, CSS, JavaScript, GitHub, GIT, React e TypeScript, com dois projetos demonstrando conhecimento prático.</p>
+
+                    <div class="btn-contato">
+                    <a href="https://api.whatsapp.com/send/?phone=5541984231847&text&type=phone_number&app_absent=0">
+                        <button>Fale comigo!</button>
+                    </a>
+                    </div>
+                </div>
+                <div class="img-topo-site">
+                    <img src="Humaaans.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+     <section class="Tecnologias">
+        <div class="interface">
+            <h2 id="esp" class="titulo">TECNOLOGIAS<span>></span></h2>
+            <div class="flex">
+                <div class="linguagem">
+                    <i class="bi bi-filetype-js"></i>
+                    <h3>JavaScript</h3> 
+                </div>
+                <div class="linguagem">
+                    <i class="bi bi-github"></i>
+                    <h3>GitHub</h3>
+                </div>
+                <div class="linguagem">
+                    <i class="bi bi-git"></i>
+                    <h3>GIT</h3>
+                </div>
+                <div class="linguagem">
+                    <i class="bi bi-terminal"></i>
+                    <h3>React</h3>
+                </div>
+                <div class="linguagem">
+                    <i class="bi bi-file-earmark-code"></i>
+                    <h3>TypeScript</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Projetos">
+        <div class="interface">
+            <h2 id="projet" class="titulo">MEUS <SPan>PROJETOS ></SPan></h2>
+            <div class="flex">
+                <div class="img-port" style="background-image: url(Calculadora.jpg);">
+                <div class="overlay" onclick="window.location.href='https://jusbtt.github.io/calculadora/'">Calcuradora</div></div>
+                <div class="img-port" style="background-image: url(Lista.jpg);">
+                <div class="overlay" onclick="window.location.href='//jusbtt.github.io/List/'">Lista de Tarefas</div></div>
+            </div>
+        </div>
+    </section>
+    <section class="formulario">
+        <div class="interface">
+            <h2 class="titulo">ENTRE EM <SPan>CONTATO ></SPan></h2>
+
+            <form method="post" action="https://formspree.io/f/xwkgojjw">
+                <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                <input type="text" name="email" id="email" placeholder="E-mail" required>
+                <input type="text" name="telefone" id="telefone" placeholder="Telefone" required>
+                <textarea name="mensagem" id="mensagem" placeholder="Mensagem"></textarea>
+                <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+            </form>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="Logo.png" alt="">
+                    </div>
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/jusbtt/"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://www.linkedin.com/in/julyane-silva-041203243/"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="https://api.whatsapp.com/send/?phone=5541984231847&text&type=phone_number&app_absent=0"><button><i class="bi bi-whatsapp"></i></button></a>
+                    </div>
+            </div>
+            </div>
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-check-fill"></i> 
+                 <a href="mailto:jusbtt@gmail.com">jusbtt@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
